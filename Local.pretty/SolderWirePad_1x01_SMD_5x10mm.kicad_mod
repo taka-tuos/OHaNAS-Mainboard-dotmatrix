@@ -1,0 +1,115 @@
+(footprint "SolderWirePad_1x01_SMD_5x10mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
+	(tags "MesurementPoint Square SMDPad 5mmx10mm ")
+	(property "Reference" "J2"
+		(at 0 -3.556 0)
+		(layer "F.SilkS")
+		(uuid "92014cdf-ff96-44ef-89d5-ce139015d94c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT+"
+		(at 0 3.556 0)
+		(layer "F.Fab")
+		(uuid "3a428d1c-cb96-45b1-ada5-24f8731c20aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9902ce6-aba3-4743-acdc-fc87a66ed434")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eac731d-35f2-4a7b-8287-e4e95c96dd67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files)
+	(fp_line
+		(start -1.778 -2.794)
+		(end -1.778 2.794)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "431ebe97-3588-4a1e-a619-323467dcfeaf")
+	)
+	(fp_line
+		(start -1.778 2.794)
+		(end 1.778 2.794)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7fc21de4-3c7b-4680-90b0-4a12734cd2ec")
+	)
+	(fp_line
+		(start 1.778 -2.794)
+		(end -1.778 -2.794)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c9aebecb-ac66-458b-88ad-c6c6671aaccc")
+	)
+	(fp_line
+		(start 1.778 2.794)
+		(end 1.778 -2.794)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6ecee4f0-e43c-42d3-8182-7eb4138ca6cd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a36cea7f-fdb0-4d1d-888f-ec8e2f4e5ada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4fdf6a69-b74b-4855-8feb-e87f2a968e8e")
+	)
+	(embedded_fonts no)
+)
